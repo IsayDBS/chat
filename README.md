@@ -13,8 +13,6 @@ Se utiliza sqlite para guardar los mensajes y puedan presentarse en un momento f
 
 Para correr la aplicación con tu computadora como server:
 
-Agreg
-
 ```
 python3 manage.py <ip de tu máquina:8080>
 ```
