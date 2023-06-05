@@ -53,6 +53,7 @@
             alert('The message was empty!')
         }
 
+
         scrollToBottom();
     };
 
@@ -68,6 +69,10 @@
 
         const messageInputDom = document.querySelector('#chat-message-input');
         const message = messageInputDom.value;
+
+        if(message == ''){
+            return false;
+        }
 
         console.log({
             'message': message,
